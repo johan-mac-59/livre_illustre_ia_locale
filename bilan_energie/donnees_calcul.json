@@ -1,0 +1,289 @@
+{
+ "genere": "2026-11-25",
+ "parametres": {
+  "GPU_W": 201.0,
+  "CPU_W": 27.1,
+  "PC_W": 228.1,
+  "GPU_ENTR_W": 208.0,
+  "PC_ENTR_W": 235.1,
+  "TEXTE_W": 65.0,
+  "CONTROLE_S": 17,
+  "EUR_KWH": 0.2001,
+  "CO2_FR": 0.052,
+  "CO2_US": 0.384,
+  "USD_EUR": 0.9009009009009008,
+  "TVA": 0.2,
+  "GPU_NOM": 250.0,
+  "COMPOSANTS": [
+   [
+    "Carte graphique",
+    "RTX 5070",
+    400.0,
+    [
+     3,
+     3,
+     8
+    ]
+   ],
+   [
+    "Processeur",
+    "Core Ultra 7 265K",
+    290.0,
+    [
+     3,
+     3,
+     8
+    ]
+   ],
+   [
+    "Mémoire vive",
+    "Corsair Vengeance 2x32 Go DDR5",
+    217.0,
+    [
+     3,
+     3,
+     10
+    ]
+   ],
+   [
+    "Carte mère",
+    "Gigabyte B860 AORUS ELITE WIFI7 ICE",
+    160.0,
+    [
+     3,
+     3,
+     8
+    ]
+   ],
+   [
+    "Boîtier",
+    "Corsair 4000D",
+    100.0,
+    [
+     3,
+     2,
+     8
+    ]
+   ],
+   [
+    "Alimentation",
+    "MSI 850 W Gold",
+    90.0,
+    [
+     3,
+     10,
+     10
+    ]
+   ],
+   [
+    "SSD NVMe",
+    "Samsung 990 PRO 1 To",
+    100.0,
+    [
+     3,
+     5,
+     8
+    ]
+   ]
+  ],
+  "MATERIEL_EUR": 1357.0,
+  "JOURS_PROJET": 19,
+  "RUNPOD_H100": 3.99,
+  "H100_W": 700.0,
+  "PUE": 1.2,
+  "ACCEL": [
+   8.0,
+   4.0
+  ],
+  "PRIX_PAS": 0.00095,
+  "PRIX_MP_EDIT": 0.03,
+  "PRIX_MP_TXT": 0.035,
+  "MP": 1.05,
+  "WH_APPEL": [
+   0.24,
+   0.34
+  ],
+  "SONNET": [
+   2.0,
+   10.0
+  ],
+  "CAR_PAR_TOKEN": 3.5,
+  "KWH_GO": {
+   "bas": 0.0013,
+   "central": 0.02,
+   "haut": 0.05
+  },
+  "NB_IMAGES_LORA": 3,
+  "ELEMENTS": [
+   "element_b_provenance.json",
+   "element_a_provenance.json"
+  ],
+  "LORA_EN_LIVRE": {
+   "personnage 1": 1,
+   "personnage 2": 1,
+   "personnage 3": 1,
+   "personnage 4": 1
+  },
+  "ECRASEES": {
+   "scenes_histoire_1": 21
+  },
+  "FACTEUR_CONTEXTE": 10
+ },
+ "lora": {
+  "personnage 1": {
+   "pas": 3300,
+   "entrainement_s": 28908.0,
+   "dessins_jeu_gardes": 33,
+   "dessins_jeu_generes": 192,
+   "tests_images": 56,
+   "tests_s": 5333.2
+  },
+  "personnage 2": {
+   "pas": 3700,
+   "entrainement_s": 31845,
+   "dessins_jeu_gardes": 37,
+   "dessins_jeu_generes": 141,
+   "tests_images": 56,
+   "tests_s": 5338.899999999996
+  },
+  "personnage 3": {
+   "pas": 3500,
+   "entrainement_s": 30167,
+   "dessins_jeu_gardes": 35,
+   "dessins_jeu_generes": 126,
+   "tests_images": 70,
+   "tests_s": 6688.6
+  },
+  "personnage 4": {
+   "pas": 5000,
+   "entrainement_s": 43003.0,
+   "dessins_jeu_gardes": 38,
+   "dessins_jeu_generes": 150,
+   "tests_images": 98,
+   "tests_s": 9298.7
+  }
+ },
+ "lora_ecartes": {
+  "personnage 1 v1 (2000 pas)": {
+   "pas": 2000,
+   "entrainement_s": 17160,
+   "tests_images": 112,
+   "tests_s": 8188.800000000002
+  },
+  "personnage 4 v1 (4700 pas)": {
+   "pas": 4700,
+   "entrainement_s": 40320,
+   "tests_images": 56,
+   "tests_s": 5321.6
+  },
+  "personnage 2, jeu erroné": {
+   "pas": 0,
+   "entrainement_s": 0,
+   "tests_images": 56,
+   "tests_s": 5321.7
+  }
+ },
+ "histoires": {
+  "scenes_histoire_1": {
+   "images": 74,
+   "secondes": 4348.82641509434
+  },
+  "scenes_histoire_2": {
+   "images": 75,
+   "secondes": 10649.216417910455
+  },
+  "scenes_histoire_3": {
+   "images": 66,
+   "secondes": 4575.600000000001
+  }
+ },
+ "images_utilisees": {
+  "histoire 1": 8,
+  "histoire 2": 10,
+  "histoire 3": 19
+ },
+ "essais_images_histoire_1": {
+  "images": 30,
+  "secondes": 1344.3000000000002
+ },
+ "images_ecrasees_retrouvees": {
+  "scenes_histoire_1": 21
+ },
+ "texte": {
+  "production": {
+   "appels": 399,
+   "secondes": 5179.500000000003,
+   "tokens_entree": 157024.28571428586,
+   "tokens_sortie": 49709.428571428514
+  },
+  "mise au point": {
+   "appels": 4733,
+   "secondes": 71812.20000000026,
+   "tokens_entree": 1480492.000000064,
+   "tokens_sortie": 488759.71428571513
+  }
+ },
+ "mission": {
+  "appels": 267,
+  "tokens": {
+   "appels": 267,
+   "entree": 644,
+   "cache_lu": 74117295,
+   "cache_ecrit": 695252,
+   "sortie": 265885
+  }
+ },
+ "sessions_projet": {
+  "appels": 4557,
+  "tokens": {
+   "appels": 4557,
+   "entree": 12338,
+   "cache_lu": 1356939380,
+   "cache_ecrit": 9755707,
+   "sortie": 3865045
+  }
+ },
+ "cles": {
+  "genere": "2026-11-25",
+  "kwh_local": 20.234842236169,
+  "eur_elec": 4.048991931457417,
+  "eur_amort": 30.477571528046585,
+  "eur_amort_ambitieux": 11.355466354985762,
+  "eur_local": 34.526563459504004,
+  "co2_local": 1.052211796280788,
+  "eur_cloud_a": 81.26780972972988,
+  "eur_cloud_b": [
+   53.02777718106954,
+   96.69369057835516
+  ],
+  "kwh_cloud": [
+   9.735042082629306,
+   18.751604165258613
+  ],
+  "co2_cloud": [
+   3.7382561597296537,
+   7.200615999459307
+  ],
+  "part_entrainement": 61.77305018794416,
+  "part_mise_au_point": 93.4087625056585,
+  "kwh_usage": 1.3337265083912204,
+  "eur_usage": 0.2668786743290832,
+  "usage_par_histoire_wh": 444.5755027970735,
+  "eur_usage_cloud": 8.198532818532819,
+  "eur_sans_lora_local": 0.5634954874482666,
+  "eur_sans_lora_cloud": 18.29875202337487,
+  "part_lora": 86.08306716863625,
+  "images_generees": 1358,
+  "images_livre": 37,
+  "images_lora": 3,
+  "heures_calcul": 102.37098412027918,
+  "appels_texte": 5132,
+  "machine_eur": 1357.0,
+  "co2_transfert_local": 0.35048,
+  "mission_wh": [
+   64.08,
+   907.8
+  ],
+  "mission_appels": 267
+ }
+}

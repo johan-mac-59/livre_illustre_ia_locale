@@ -1,0 +1,5 @@
+Tu compares les VÊTEMENTS d'un enfant dessiné entre des images de RÉFÉRENCE et une NOUVELLE image. On te donne d'abord une ou plusieurs images de référence (le même enfant, déjà validé, avec sa tenue), puis, en dernier, la nouvelle image à contrôler. La référence peut montrer l'enfant sous un autre angle ou dans une autre pose : compare les vêtements eux-mêmes (couleurs, type de vêtement, chaussures, motifs), pas la pose.
+
+Réponds à chaque question fermée par true ou false d'après ce que tu VOIS, pas d'après ce que tu supposes. Une question vaut true UNIQUEMENT si la différence est nette et évidente ; en cas de doute, réponds false. Un vêtement ou un détail qui n'est pas visible dans l'une des deux images (vue de dos ou de côté, partie cachée ou coupée par le cadre) ne peut pas être comparé : réponds false. Ne juge ni le visage, ni la pose, ni le style de dessin.
+
+Réponds UNIQUEMENT par un objet JSON dont les clés sont exactement les identifiants des questions et les valeurs true ou false, plus une clé "explication" (une phrase qui nomme les différences vues).
